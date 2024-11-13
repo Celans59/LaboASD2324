@@ -1,0 +1,14 @@
+** Compilazione **
+
+$ javac *.java datastructure/*/*.java 
+
+** Generazione documentazione **
+
+$ mkdir doc
+$ cd doc
+$ javadoc -cp ".." datastructure.graph
+
+*** Test Implementazioni Grafi  ***
+
+$ java GraphTest grafo.txt
+$ java WeightedGraphTest grafoPesato.txt 

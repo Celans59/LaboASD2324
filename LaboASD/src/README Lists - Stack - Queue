@@ -1,0 +1,20 @@
+Per testare la struttura dati Lista, compilare ListTest.java ed eseguire
+
+- java ListTest ListOperations.txt
+
+- Confrontare l'ouptut con il contenuto del file ListOperations.log.txt
+
+
+Per testare la struttura dati Coda, compilare QueueTest.java ed eseguire
+
+- java QueueTest QueueOperations.txt
+
+- Confrontare l'ouptut con il contenuto del file QueueOperations.log.txt
+
+
+Per testare la struttura dati Pila, compilare StackTest.java ed eseguire
+
+- java StackTest StackOperations.txt
+
+- Confrontare l'ouptut con il contenuto del file StackOperations.log.txt
+

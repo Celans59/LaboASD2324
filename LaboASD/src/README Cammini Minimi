@@ -1,0 +1,13 @@
+** Compilazione **
+
+$ javac *.java datastructure/*/*.java algorithm/*/*/*.java
+
+** Generazione documentazione **
+
+$ mkdir doc
+$ cd doc
+$ javadoc -cp ".." algorithm.graph.SSSP 
+
+*** Test Shortest Path  ***
+
+java ShortestPathTest grafo1.txt

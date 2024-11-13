@@ -1,0 +1,14 @@
+** Compilazione **
+
+$ javac *.java datastructure/*/*.java algorithm/graph/traversal/*.java
+
+** Generazione documentazione **
+
+$ mkdir doc
+$ cd doc
+$ javadoc -cp ".." algorithm.graph.traversal datastructure.graph
+
+*** Test Union Find  ***
+
+$ java GraphVisitTest grafoVisite.txt
+
